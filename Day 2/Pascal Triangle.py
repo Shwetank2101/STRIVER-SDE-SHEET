@@ -20,8 +20,6 @@ def generateNthRow (N):
     print(prev, end = '')
  
     for i in range(1, N + 1):
- 
-        # nCr = (nCr-1 * (n - r + 1))/r
         curr = (prev * (N - i + 1)) // i
         print(",", curr, end = '')
         prev = curr
