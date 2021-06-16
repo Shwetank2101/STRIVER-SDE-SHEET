@@ -1,15 +1,16 @@
-def sort(l1,l2):
-    i,j=0,0
-    n1=len(l1)
-    n2=len(l2)
-    while i<n1:
-        if l2[j]>l1[i]:
+class Solution:
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        if n==0:
+            return 
+        i,j=0,0
+        while i<m:
+            if nums2[j]<nums1[i]:
+                nums2[j],nums1[i]=nums1[i],nums2[j]
+                for k in range(j,n):
+                    if nums2[j]>nums2[k]:
+                        nums2[j],nums2[k]=nums2[k],nums2[j]
             i+=1
-        else:
-            l2[j],l1[i]=l1[i],l2[j]
-            i+=1
-            for k in range(j,n2):
-                if l2[j]>l2[k]:
-                    l2[j],l2[k]=l2[k],l2[j]
-        print(*l1,*l2)
-    print(*l1,*l2)
+        for i in range(n):
+            nums1[m+i]=nums2[i]
+        
+        
