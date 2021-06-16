@@ -16,3 +16,10 @@ S.No. | Day | Topic | Date |
 6 | [Day 6](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%206) | Linked List | Not started |
 7 | [Day 7](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%207) | 2-Pointer | Not started |
 8 | [Day 8](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%208) | Greedy | Not started |
+9 | [Day 9](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%209) | Recursion | Not started |
+10 | [Day 10](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%2010) | Recursion and Backtracking | Not started |
+11 | [Day 11](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%2011) | Binary Search | Not started |
+12 | [Day 12](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%2012) | Bits | Not started |
+13 | [Day 13](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%2013) | Stack and Queue | Not started |
+14 | [Day 14](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%2014) | 2-Pointer | Not started |
+15 | [Day 15](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%2015) | String | Not started |
