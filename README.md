@@ -7,5 +7,5 @@ Collection of the solutions in C++
 ## Important Questions
 
 S.No. | Day | Topic | Date |
-------|---------------|------------|-------|------|
+------|---------------|-------|------|
 1 | [Day 1](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%201) | Arrays | 16 June 21 |
