@@ -1,3 +1,4 @@
+#O(n2)
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         out=[[1],[1,1]]
@@ -11,3 +12,16 @@ class Solution:
             temp.append(1)
             out.append(temp)
         return out
+
+
+#O(n)
+def generateNthRow (N):
+    prev = 1
+    print(prev, end = '')
+ 
+    for i in range(1, N + 1):
+ 
+        # nCr = (nCr-1 * (n - r + 1))/r
+        curr = (prev * (N - i + 1)) // i
+        print(",", curr, end = '')
+        prev = curr
