@@ -1,38 +1,25 @@
 class Solution:
-    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        first=l1
-        second=l2
+    def addTwoNumbers(self, root1: ListNode, root2: ListNode) -> ListNode:
+        first=root1
+        second=root2
         carry=0
-        while(first or second):
-            a=first.val if first else 0
-            b=second.val if second else 0
-            sum1=a+b
-            if carry:
-                sum1+=1
-            carry=0 if sum1<10 else 1
-            sum1=sum1 if sum1<10 else sum1%10
-            
+        root=temp=node(0)
+        while first or second:
+            v1,v2=0,0
             if first:
-                first.val=sum1
-                prev1=first
+                v1=first.data
                 first=first.next
-            else:
-                prev1=None
             if second:
-                second.val=sum1
-                prev2=second
+                v2=second.data
                 second=second.next
+            sum1=v1+v2+carry
+            if sum1>=10:
+                carry=1
+                sum1%=10
             else:
-                prev2=None
+                carry=0
+            temp.next=node(sum1)
+            temp=temp.next
         if carry:
-            if prev1:
-                prev1.next=ListNode(carry)
-                return l1
-            else:
-                prev2.next=ListNode(carry)
-                return l2
-        else:
-            if prev1:
-                return l1
-            else:
-                return l2
+            temp.next=node(carry)
+        return root.next
