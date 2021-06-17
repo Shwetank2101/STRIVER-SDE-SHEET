@@ -19,3 +19,4 @@ def permutation(nums):
                 nums[prev],nums[j]=nums[j],nums[prev]
                 prev+=1
                 j-=1
+

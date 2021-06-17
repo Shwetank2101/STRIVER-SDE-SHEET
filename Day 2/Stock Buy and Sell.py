@@ -5,4 +5,5 @@ class Solution:
             q=max(0,l[i]-l[i-1]+q)
             m=max(m,q)
         return (m)
+
         
