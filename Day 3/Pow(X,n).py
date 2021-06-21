@@ -26,3 +26,4 @@ class Solution:
             n=n>>1
             x=x*x
         return res
+
