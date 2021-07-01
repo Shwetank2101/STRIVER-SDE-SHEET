@@ -14,4 +14,3 @@ def total(nums,x):
         else:
             d[xor]=1
     return count
-            
