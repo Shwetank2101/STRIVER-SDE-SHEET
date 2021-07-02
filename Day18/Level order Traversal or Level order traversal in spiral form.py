@@ -1,17 +1,39 @@
-class Solution:
-    def levelOrder(self, root: TreeNode) -> List[List[int]]:
-        if not root:
-            return None
-        q=[root]
-        res=[]
-        while q:
-            level=[]
-            for i in range(len(q)):
-                x=q.pop(0)
-                level.append(x.val)
-                if x.left:
-                    q.append(x.left)
-                if x.right:
-                    q.append(x.right)
-            res.append(level[0])
-        return res
+class newNode:
+    def __init__(self,data):
+        self.left=None
+        self.right=None
+        self.data=data
+
+def levelspiral(root):
+    if not root:
+        return root
+    curr=[root]
+    next=[]
+    temp=False
+    while curr:
+        x=curr.pop(-1)
+        print(x.data,end=' ')
+        if temp:
+            if x.left:
+                next.append(x.left)
+            if x.right:
+                next.append(x.right)
+        else:
+            if x.right:
+                next.append(x.right)
+            if x.left:
+                next.append(x.left)
+        if not curr:
+            temp=not temp
+            next,curr=curr,next
+
+root = newNode(1) 
+root.left = newNode(2) 
+root.right = newNode(3) 
+root.left.left = newNode(7) 
+root.left.right = newNode(6) 
+root.right.left = newNode(5) 
+root.right.right = newNode(4) 
+levelspiral(root)
+        
+        
