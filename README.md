@@ -19,7 +19,7 @@ S.No. | Day | Topic | Date |
 9 | [Day 9](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%209) | Recursion | Not started |
 10 | [Day 10](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day10) | Recursion and Backtracking | Not started |
 11 | [Day 11](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day11) | Binary Search | Not started |
-12 | [Day 12](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day12) | Bits | Not started |
+12 | [Day 12](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day12) | Bits | 02 July 21 |
 13 | [Day 13](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day13) | Stack and Queue | Not started |
 14 | [Day 14](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day14) | 2-Pointer | Not started |
 15 | [Day 15](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day15) | String | Not started |
