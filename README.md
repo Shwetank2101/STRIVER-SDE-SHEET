@@ -26,7 +26,7 @@ S.No. | Day | Topic | Date |
 16 | [Day 16](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day16) | String | Not started |
 17 | [Day 17](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day17) | Binary Tree | 01 July 21 |
 18 | [Day 18](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day18) | Binary Tree | 03 July 21 |
-19 | [Day 19](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day19) | Binary Tree | 19 July 21 |
+19 | [Day 19](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day19) | Binary Tree | 11 July 21 |
 20 | [Day 20](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day20) | Binary Search Tree | Not started |
 21 | [Day 21](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day21) | Binary Search Tree | Not started |
 22 | [Day 22](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day22) | Mixed Question | Not started |
