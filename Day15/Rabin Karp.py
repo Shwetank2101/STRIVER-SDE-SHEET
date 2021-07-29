@@ -16,7 +16,7 @@ def search(s,t):
     target=0
     current=0
     for i in range(m):
-        #target=(target*x+asci(t[i]))%base
+        #target=(target*x+asci(t[i]))%base 
         #current=(current*x+asci(s[i]))%base
         #print(target)
         target=(target*x+asci(t[i]))
