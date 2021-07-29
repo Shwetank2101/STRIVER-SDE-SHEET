@@ -22,7 +22,7 @@ def push(root,data):
         else:
             q.append(x.right)
 
-
+ 
 
 #using queue     
 def levelOrder(root):
