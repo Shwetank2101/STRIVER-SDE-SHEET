@@ -21,9 +21,15 @@ def search(s,t):
         #print(target)
         target=(target*x+asci(t[i]))
         current=(current*x+asci(s[i]))
-    for i in range(n-m+1):
+    for i in range(n-m):
+        #print(current,target)
         if target==current:
             if check(s[i:i+m],t):
                 print('Pattern found at',i)
-        current=current-(x*m*asci(s[i]))+(x*m*asci(s[i+m-1]))
+        current=current-((x**(m-1))*asci(s[i]))
+        current=current*x+asci(s[i+m])
+        #print(current)
+        #current=current-(x*m*asci(s[i]))+(x*m*asci(s[i+m-1]))
+    if current==target:
+        print('Pattern found at',i+1)
         #current=(current-(x*m*asci(s[i]))+(x*m*asci(s[i+m-1])))%base

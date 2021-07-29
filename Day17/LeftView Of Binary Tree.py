@@ -30,7 +30,6 @@ def levelOrder(root):
         return None
     q=[root]
     while q:
-        level=[]
         for i in range(len(q)):
             x=q.pop(0)
             if i==0:
