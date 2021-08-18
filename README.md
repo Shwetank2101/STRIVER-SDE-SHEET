@@ -16,7 +16,7 @@ S.No. | Day | Topic | Date |
 6 | [Day 6](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%206) | Linked List | 20 June 21 |
 7 | [Day 7](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%207) | 2-Pointer | 22 June 21 |
 8 | [Day 8](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%208) | Greedy | 8 August 21 |
-9 | [Day 9](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%209) | Recursion | Not started |
+9 | [Day 9](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day%209) | Recursion | 19 August 21 |
 10 | [Day 10](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day10) | Recursion and Backtracking | Not started |
 11 | [Day 11](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day11) | Binary Search | Not started |
 12 | [Day 12](https://github.com/Shwetank2101/STRIVER-SDE-SHEET/tree/main/Day12) | Bits | 02 July 21 |
