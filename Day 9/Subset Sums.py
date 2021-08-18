@@ -1,4 +1,4 @@
-# Recursion
+# DP
 class Solution:
     def isSubsetSum (self, N, arr, sum):
         check=[[0 for i in range(sum+1)] for j in range(N+1)]
@@ -15,8 +15,7 @@ class Solution:
         return check[-1][-1]
 
 
-# DP
-'''
+# Recursion
 def check(l,x,n):
     if x<0 or n<0:
         return False
