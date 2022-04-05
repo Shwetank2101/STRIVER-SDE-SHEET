@@ -7,7 +7,7 @@ def permutation(nums):
             i-=1
         if i==0:
             nums.reverse()
-        else:+
+        else:
             prev=i-1
             j=n-1
             while nums[prev]>=nums[j]:
